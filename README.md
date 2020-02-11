@@ -138,6 +138,7 @@ export default class App extends Component{
     }
 }
 ```
+![statusBarDark](./imgs/statusBarDart.jpg)
 ```
 - 위와같이 hidden={true}로 설정하면 상태바를 아예 없앨 수 있다.
 - barStyle="dark-content" 옵션을 주면 상태바 내부 아이콘들이 검은색으로 표시된다.
@@ -154,7 +155,7 @@ export default class App extends Component{
     }
 }
 ```
-![statusBarDark](./imgs/statusBarDart.jpg)
+
 ```
 - expo의 vector icon으로 접속하면 각 아이콘의 이름을 찾을 수 있다.
 - color, size, name 등의 속성을 설정할 수 있다.
